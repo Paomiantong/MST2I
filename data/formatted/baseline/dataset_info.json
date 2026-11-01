@@ -1,0 +1,47 @@
+{
+  "baseline.train-fr": {
+    "file_name": "train/fr.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "baseline.train-de": {
+    "file_name": "train/de.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "baseline.train-115": {
+    "file_name": "train/115.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "test": {
+    "file_name": "eval/test.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "baseline.dev": {
+    "file_name": "eval/dev.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  }
+}

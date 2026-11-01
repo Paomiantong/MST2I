@@ -1,0 +1,11 @@
+# Common preprocessing / evaluation dependencies.
+# Install CUDA, PyTorch, LLaMA-Factory, TRL and vLLM separately.
+# Script-based dataset loading requires datasets < 4.
+datasets>=3.2,<4
+pandas>=2
+fire>=0.7
+scikit-learn>=1.3
+sacrebleu>=2.4
+jiwer>=3
+soundfile>=0.12
+# Optional COMET evaluation: install unbabel-comet separately.

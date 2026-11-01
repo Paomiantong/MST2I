@@ -1,0 +1,65 @@
+{
+  "post-func.train-fr": {
+    "file_name": "train/fr.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "post-func.train-de": {
+    "file_name": "train/de.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "post-func.train-115": {
+    "file_name": "train/115.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "test": {
+    "file_name": "eval/test.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "post-func.dev": {
+    "file_name": "eval/dev.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "post-func.ext-dev": {
+    "file_name": "eval/extent-dev.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  },
+  "post-func.ext-train": {
+    "file_name": "train/extent-train.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "audios": "audios"
+    }
+  }
+}
